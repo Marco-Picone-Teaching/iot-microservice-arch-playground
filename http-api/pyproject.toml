@@ -1,0 +1,27 @@
+[project]
+name = "iot-inventory-api"
+version = "0.1.0"
+description = "IoT Inventory RESTful HTTP API microservice (Flask + Flask-RESTful) managing Locations and Devices"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=2.3,<3",
+    "flask-restful>=0.3.10",
+    "pyyaml>=6.0",
+    "requests>=2.31",
+]
+
+[project.scripts]
+iot-inventory-api = "iot_inventory_api.api_server:main"
+create-location = "iot_inventory_api.client.create_location:main"
+create-and-get-location = "iot_inventory_api.client.create_and_get_location:main"
+get-location-list = "iot_inventory_api.client.get_location_list:main"
+get-location = "iot_inventory_api.client.get_single_location:main"
+update-location = "iot_inventory_api.client.update_location:main"
+delete-location = "iot_inventory_api.client.delete_location:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "iot_inventory_api"

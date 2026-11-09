@@ -15,7 +15,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -26,6 +26,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location"
@@ -49,7 +50,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -60,6 +61,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location"
@@ -83,7 +85,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -94,6 +96,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -109,7 +112,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -120,6 +123,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -135,7 +139,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -146,6 +150,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -166,7 +171,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001/device",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001/device",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -177,6 +182,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -193,7 +199,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001/device/d0001",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001/device/d0001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -204,6 +210,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -230,7 +237,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001/device",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001/device",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -241,6 +248,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -266,7 +274,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001/device/d0001",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001/device/d0001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -277,6 +285,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
@@ -294,7 +303,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:7070/api/iot/inventory/location/l0001/device/d0001",
+							"raw": "http://127.0.0.1:7070/api/v1/iot/inventory/location/l0001/device/d0001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -305,6 +314,7 @@
 							"port": "7070",
 							"path": [
 								"api",
+								"v1",
 								"iot",
 								"inventory",
 								"location",
