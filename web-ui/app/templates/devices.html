@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Devices for Location {{ location_id }}</title>
+</head>
+<body>
+    <h1>Devices for Location {{ location_id }}: {{ devices|length }}</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Manufacturer</th>
+            <th>Version</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+        </tr>
+        {% for device in devices %}
+        <tr>
+            <td>{{ device.uuid }}</td>
+            <td>{{ device.name }}</td>
+            <td>{{ device.type }}</td>
+            <td>{{ device.manufacturer }}</td>
+            <td>{{ device.software_version }}</td>
+            <td>{{ device.latitude }}</td>
+            <td>{{ device.longitude }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
